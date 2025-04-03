@@ -16,7 +16,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="qfetch-py",
-    version="1.0.0-rc1",
+    version="1.0.0",
     author="Vipin B",
     author_email="vipin@vipin.xyz",
     description="a simple, no-fuss System Information CLI tool written in Python (Designed/Tested for Ubuntu, Debian, and MacOS)",
