@@ -2,13 +2,31 @@
 
 <img src="https://files.vipin.xyz/api/public/dl/-lYTy1Wl?inline=true" alt="qfetch" align="right" height="290px">
 
-qfetch is a simple, no-fuss CLI tool written in Python that gives you a clean snapshot of your system info on Linux and macOS. It shows details like your OS, architecture, packages, shell version, terminal type, memory usage, uptime, and even throws in some fun ASCII art for good measure. It’s designed to be straightforward and looks good right out of the box.
+qfetch is a simple, no-fuss CLI tool written in Python ≥3.12 that gives you a clean snapshot of your system info on Linux and macOS. It shows details like your OS, architecture, packages, shell version, terminal type, memory usage, uptime, and even throws in some fun ASCII art for good measure. It’s designed to be straightforward and looks good right out of the box.
 
 Designed & Tested for **Ubuntu**, **Debian**, and **MacOS**. More operating systems and distributions will be added in the near future.
 
 ## Installation
 
-qfetch was designed specifically for terminals with **NerdFonts** which you can download at [nerdfonts.com](https://www.nerdfonts.com) and add to your terminal using [these](https://webinstall.dev/nerdfont/) instructions. Afterwards install and run using the following commands...
+qfetch was designed specifically for terminals with **NerdFonts** which you can download at [nerdfonts.com](https://www.nerdfonts.com) and add to your terminal using [these](https://webinstall.dev/nerdfont/) instructions. Afterwards install and run using the following commands for your system...
+
+**Ubuntu & Debian based systems:**
+
+`pipx` is preferred for Ubuntu & Debian based systems, which can be installed with `sudo apt install pipx`
+
+```bash
+pipx install qfetch-py
+pipx ensurepath
+```
+
+However `pip` still works
+
+```bash
+pip install qfetch-py
+qfetch
+```
+
+**MacOS**:
 
 ```bash
 pip install qfetch-py
